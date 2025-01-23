@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgba(94, 58, 238, 1);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 40.5px;
+
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 39px;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.hero-area{
+    background-color: rgba(240, 240, 245, 1);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+}
+
+.hero-content h1{
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 57px;
+    
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+}
